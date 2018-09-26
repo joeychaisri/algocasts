@@ -17,6 +17,45 @@
 //       '### '
 //       '####'
 
-function steps(n) {}
+steps(3)
+
+function steps(n) {
+
+    var square = ""
+    var count = 0
+
+
+
+    
+
+    for(i=1 ; i<=n ; i++){
+
+        var space = ""
+
+    square = square + "#"
+
+    count = n-i 
+
+    if (count > 0){
+        for (x=count; x>0 ; x--){
+
+            space = space + " "
+
+            debugger;
+
+        }
+    }else{
+        space = ""
+    }
+
+      
+     console.log(square + space)
+     
+     
+     
+
+    }
+
+}
 
 module.exports = steps;
